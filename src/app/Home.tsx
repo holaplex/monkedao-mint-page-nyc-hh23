@@ -49,7 +49,7 @@ export default function Home({ session }: HomeProps) {
   return (
     <>
       <header className='flex w-full justify-between items-center py-4'>
-        <Image src='/img/logo.png' alt='site logo' width={961} height={540} />
+        <Image src='/img/logo.png' alt='site logo' width={320} height={180} />
 
         {!me ? (
           <>
